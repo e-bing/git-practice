@@ -2,6 +2,7 @@
 깃린이들을 위한 실습 레포
 
 # 1. 브랜치 구성
+```
 git-practice
 │
 ├── [main] : 실제 구동 가능한 하드웨어 배포 버전 (v1.0 Stable)
@@ -18,6 +19,7 @@ git-practice
 │    └── [feature/client-ui] : 모니터링 클라이언트
 │
 └── [hotfix/sensor-error] : 배포 후 센서 값이 0으로 뜨는 현상 긴급 수정
+```
 
 # 2. 브랜치 할당
 
