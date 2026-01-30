@@ -2,4 +2,8 @@
 
 void stm32_firmware_hello(void){
     printf("bangga bangga");
+    
+    
+
+    printf("bangga bangga");
 }
