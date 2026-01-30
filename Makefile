@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -O2
 TARGET = total_system
 
 # 소스 파일 목록 (팀원들이 파일을 추가할 때마다 여기에 작성)
-SRCS = main.c rpi_server.c camera_node.c
+SRCS = main.c src/rpi_server.c src/camera_node.c
 
 OBJS = $(SRCS:.c=.o)
 
