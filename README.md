@@ -34,6 +34,7 @@ git-practice
 
 [로컬(개인PC)]
 - 각 브랜치 아래에 rpi_server.c 등으로 소스 파일과 헤더 파일 생성
+- 소스는 src/ 아래에, 헤더는 header/아래에 만들기
 - 함수 프로토타입은 아래와 같고, 각자 맞는 함수 구현하기
   ```
   void rpi_server_hello(void);
