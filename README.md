@@ -33,10 +33,16 @@ git-practice
 - 아래 작업 내용을 숙지한 후에 본인이 작업할 내용 이슈로 생성하기
 
 [로컬(개인PC)]
-- 각 브랜치 아래에 rpi_server.c 등으로 소스 파일 생성
-- makefile 작성
+- 각 브랜치 아래에 rpi_server.c 등으로 소스 파일과 헤더 파일 생성
+- 함수 프로토타입은 아래와 같고, 각자 맞는 함수 구현하기
+  ```
+  void rpi_server_hello(void);
+  void camera_node_hello(void);
+  void stm32_firmware_hello(void);
+  void client_ui_hello(void);
+  ```
 - 출력 함수를 이용하여 "브랜치명 hello!" 가 출력되도록 함수 구현
-- 각자 3번씩 커밋
+- 각자 2번 이상 커밋
 - 커밋 컨벤션은 아래와 같음
   ```
   [type][scope]: 짧고 명확한 제목 (50자 이내)
@@ -49,10 +55,10 @@ git-practice
 - 예시
   ```
   (feature/rpi-server)
-  1st 커밋: [feat][rpi]: 기본 소스 파일 및 Makefile 생성
+  1st 커밋: [feat][rpi]: 기본 소스 파일 생성
   rpi_server.c 파일 생성 및 "rpi-server hello!" 출력 기본 구조 작성.
   
-  2nd 커밋: [feat][rpi]: (자유롭게) 포트 설정 및 서버 대기 상태 출력 함수 구현.
+  2nd 커밋: [docs][rpi]: rpi_server_hello 함수 설명 주석 추가
   
   3rd 커밋: [chore][rpi]: Makefile 빌드 옵션 수정
   컴파일러 경고 옵션(-Wall) 추가 및 정리.
