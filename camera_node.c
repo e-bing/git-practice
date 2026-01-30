@@ -3,6 +3,6 @@
 
 void camera_node_hello(void)
 {
-    printf("camera_node hello ! \n");
+    printf("camera_node bye ! \n");
 }
 
