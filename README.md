@@ -46,17 +46,18 @@ git-practice
   
   Closes #123
   ```
-
-예시
-(feature/rpi-server)
-1st 커밋: [feat][rpi]: 기본 소스 파일 및 Makefile 생성
-rpi_server.c 파일 생성 및 "rpi-server hello!" 출력 기본 구조 작성.
-
-2nd 커밋: [feat][rpi]: (자유롭게) 포트 설정 및 서버 대기 상태 출력 함수 구현.
-
-3rd 커밋: [chore][rpi]: Makefile 빌드 옵션 수정
-컴파일러 경고 옵션(-Wall) 추가 및 정리.
-
+- 예시
+  ```
+  (feature/rpi-server)
+  1st 커밋: [feat][rpi]: 기본 소스 파일 및 Makefile 생성
+  rpi_server.c 파일 생성 및 "rpi-server hello!" 출력 기본 구조 작성.
+  
+  2nd 커밋: [feat][rpi]: (자유롭게) 포트 설정 및 서버 대기 상태 출력 함수 구현.
+  
+  3rd 커밋: [chore][rpi]: Makefile 빌드 옵션 수정
+  컴파일러 경고 옵션(-Wall) 추가 및 정리.
+  ```
+  
 [원격 저장소]
 - dev 브랜치로 PR 요청 (merge는 하지 않음)
 - PR 요청하면 다같이 확인
